@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Body {
+  background-color: #CBEBF7;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.score-board {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.meow {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  justify-content: center;
+}
+
+.block-score {
+  background-color: white;
+}
+
+.time-board {
+  font-size: 32px;
+  font-weight: 800;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px  ;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.time span {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.footage {
+  font-size: 15px;
+  font-weight: 300;
+}
